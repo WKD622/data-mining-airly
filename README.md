@@ -4,6 +4,6 @@ In main app directory:
 * run `virtualenv env`
 * run `source env/bin/activate`
 * run `pip -r install requirements.txt`
-* place your database config in /helpers/consts.py
+* place your database config in `/src/helpers/consts.py`
 
 That's all. 
