@@ -156,6 +156,10 @@ static
 .idea
 .idea/
 
+/data
+
+/src/data/
+
 # Generated files
 .idea/**/contentModel.xml
 
