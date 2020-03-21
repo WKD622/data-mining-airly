@@ -153,6 +153,9 @@ static
 .idea/**/dictionaries
 .idea/**/shelf
 
+.idea
+.idea/
+
 # Generated files
 .idea/**/contentModel.xml
 
