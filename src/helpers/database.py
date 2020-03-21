@@ -1,5 +1,4 @@
 import os
-
 import mysql.connector
 
 from src.helpers.consts import OUTPUT_DATA_FOLDER_NAME, DATABASE_CONFIG
@@ -13,7 +12,7 @@ def get_csv_line_from_response_row(row, datetime_from_index, datetime_to_index):
             data.append(str(field.time().hour))
         else:
             data.append(str(field))
-    return ', '.join(data) + '\n'
+    return ','.join(data) + '\n'
 
 
 def get_file_header(columns):
@@ -27,7 +26,7 @@ def get_file_header(columns):
             header.append('time_to')
         else:
             header.append(name)
-    return ', '.join(header) + '\n'
+    return ','.join(header) + '\n'
 
 
 def save_data_to_csv(data, filename, columns):
