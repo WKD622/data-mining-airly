@@ -1,10 +1,10 @@
 # DATABASE
 DATABASE_CONFIG = {
-    'user': 'wkd622@wkd622',
-    'password': 'airly_haslo_2020',
-    'host': 'wkd622.mysql.database.azure.com',
-    'raise_on_warnings': True,
-    'database': 'airly'
+    'user': 'HERE_USERNAME',
+    'password': 'HERE_PASSWORD',
+    'host': 'HERE_HOSTNAME',
+    'raise_on_warnings': 'TRUE/FALSE',
+    'database': 'HERE_NAME_PF_DATABASE'
 }
 
 OUTPUT_DATA_FOLDER_NAME = 'data'
