@@ -48,12 +48,14 @@ def save_data_to_csv(data, filename, columns):
                                               datetime_to_index=datetime_to_index)
         file.write(line)
     file.close()
+    print('Saved to: ' + filename)
 
 
 def execute(database, select_command):
     my_cursor = database.cursor()
     try:
         my_cursor.execute(select_command)
+        print('\nData fetched successfully.')
         return my_cursor.fetchall()
     except Exception as error:
         database.rollback()

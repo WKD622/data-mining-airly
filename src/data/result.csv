@@ -1,2 +1,2 @@
-sensor_id, pm10
+sensor_id, sum(pm10)
 239, 20657.689999999988
